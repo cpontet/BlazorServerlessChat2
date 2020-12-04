@@ -11,8 +11,8 @@
       "type": "secrets.user"
     },
     "signalr1": {
-      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.SignalRService/SignalR/tech-comm-signalr-service",
-      "type": "signalr.azure",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.SignalRService/SignalR/blazor-signalr-test",
+      "type": "signalr.function",
       "connectionId": "Azure__SignalR__ConnectionString",
       "secretStore": "LocalSecretsFile"
     }
